@@ -1,0 +1,22 @@
+@use "abstracts/_astracts-dir" as abs;
+// --> This comment not compile
+/**
+  This comment compile to css
+ */
+:root {
+  // --> $type = primary, secondary, etc
+  // --> $values = (...)
+  // --> $type-color = main, light, dark, etc
+  // --> $color = value hexadecimal, rgb, etc
+  @each $type, $values in abs.$palette {
+    @each $type-color, $color in $values {
+      --#{$type}-#{$type-color}: #{$color};
+    }
+  }
+  // --> Generate fonts
+  @each $type-font, $number in abs.$font-weight {
+    --f-type-#{$type-font}: #{$number};
+  }
+}
+
+@import "./base/_base-dir";

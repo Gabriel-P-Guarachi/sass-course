@@ -1,0 +1,54 @@
+/**
+  This comment compile to css
+ */
+:root {
+  --primary-light: #757ce8;
+  --primary-main: #3f50b5;
+  --primary-dark: #002884;
+  --primary-contrast: #fff;
+  --secondary-light: #ff7961;
+  --secondary-main: #f44336;
+  --secondary-dark: #ba000d;
+  --secondary-contrast: #000;
+  --f-type-light: 300;
+  --f-type-medium: 400;
+  --f-type-bold: 700;
+}
+
+*,
+*::before,
+*:after {
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: var(--f-type-light);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--f-type-bold);
+  margin: 0;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  font-weight: inherit;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: var(--f-type-bold);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=styles.css.map */

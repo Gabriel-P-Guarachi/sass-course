@@ -1,0 +1,25 @@
+{
+  "name": "sass-course",
+  "version": "1.0.0",
+  "description": "Course about sass",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gabriel-P-Guarachi/sass-course.git"
+  },
+  "keywords": [
+    "sass"
+  ],
+  "author": "Gabriel Perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gabriel-P-Guarachi/sass-course/issues"
+  },
+  "homepage": "https://github.com/Gabriel-P-Guarachi/sass-course#readme",
+  "devDependencies": {
+    "sass": "^1.34.0"
+  }
+}
